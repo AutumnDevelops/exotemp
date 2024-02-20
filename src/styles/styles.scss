@@ -84,7 +84,7 @@ main button{
   color: $main_white;
   margin: 28px;
   padding: 15px;
-  width: 400px;
+  width: 450px;
   margin: auto;
   outline: none;
   border: none;
@@ -106,7 +106,7 @@ main button{
     width: 350px;
   }
   @media(max-width:767px){
-    width: 300px;
+    width: 325px;
   }
 }
 
@@ -127,8 +127,8 @@ main #card_area{
 }
 
 main #card_individual img{
-  width: 475px;
-  height: 500px;
+  width: 450px;
+  height: 575px;
   border: 4px solid $main_gray;
   display: flex;
   flex-direction: column;
@@ -146,13 +146,35 @@ main #card_individual img{
   }
   @media(max-width:999px){
     width: 350px;
-    height: 375px;
+    height: 475px;
     margin: auto;
     margin-bottom: 15px;
   }
   @media(max-width:767px){
-    width: 300px;
-    height: 325px;
+    width: 325px;
+    height: 450px;
   }
 }
 
+
+footer ul{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 17px;
+  font-family: bold;
+  padding: 20px;
+  @media(max-width:767px){
+    flex-direction: column;
+    align-items: center;
+  }
+  a{
+    color: $main_black;
+    text-decoration: underline;
+    font-weight:700;
+    &.dark_mode{
+      color: $light_gray;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import "./styles/styles.scss";
 import Header from "./comps/Header";
 import Work from "./scenes/Work";
+import Footer from "./scenes/Footer";
 import React, { useState, useEffect } from "react";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Header />
     </nav>
       <Work />
+      <Footer />
     </div>
   );
 }

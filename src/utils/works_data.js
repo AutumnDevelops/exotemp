@@ -9,7 +9,7 @@ const works_data = [
         },
         {
             "id" : 3,
-            "piece": "piece_3.webp"
+            "piece": "piece_3.jpg"
         },
         {
             "id" : 4,
@@ -17,19 +17,19 @@ const works_data = [
         },
         {
             "id" : 5,
-            "piece": "piece_5.png"
+            "piece": "piece_5.jpg"
         },
         {
             "id" : 6,
-            "piece": "piece_6.png"
+            "piece": "piece_6.jpg"
         },
         {
             "id" : 7,
-            "piece": "piece_7.png"
+            "piece": "piece_7.jpg"
         },
         {
             "id" : 8,
-            "piece": "piece_8.png"
+            "piece": "piece_8.jpg"
         },
         {
             "id" : 9,
@@ -46,10 +46,6 @@ const works_data = [
         {
             "id" : 12,
             "piece": "piece_12.jpg"
-        },
-        {
-            "id" : 13,
-            "piece": "piece_13.webp"
         }
     ]
 export default works_data
